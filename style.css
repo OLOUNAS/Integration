@@ -1,0 +1,150 @@
+*{
+    margin: 10px;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    
+.hover-effect:hover {
+   opacity:0.5;
+   transition: opacity .2s;   
+}
+
+.hover-effect {  
+    border-radius: 3px; 
+}
+
+.hover-effect:first-child {
+
+    filter: grayscale(100%);
+}
+
+header{
+    text-align: center;
+    background-color: grey;
+    height: 150px;
+    border-radius: 30px;
+    font-size: 30px;   
+}
+
+body h4{
+    font-size: 25px;
+    margin-bottom: 70px;
+    margin-top: 25px;
+    border-radius: 20px;
+    width: fit-content;
+    background-color:rgb(208, 208, 233);
+}
+
+body h2{
+    text-align: center;
+    background-color: rgb(167, 158, 158);
+    border-radius: 30px;
+    color: white;
+}
+
+nav a:hover{
+    color: rgb(17, 16, 16);
+    border-style: outset; 
+}
+
+nav ul{   
+    list-style-type: none;   
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li{
+    float: left;
+    width: 20%;
+    text-align: center; 
+}
+
+.sous-menu{
+
+    display: none;
+    position: absolute;
+    width: 15%;
+    z-index: 1000;    
+}
+
+.sous-menu li{
+
+    float: none;
+    width: 100%;
+    text align:left;
+}
+
+nav >ul li:hover .sous-menu{
+    display: block;
+    background-color: rgb(170, 165, 165);
+}
+
+.menu-deroulant > a::after{
+    content: "▼";
+    font-size: 12px;
+}
+
+body {
+    text-align: justify;
+    background-color: white;
+}
+
+body a{
+    text-decoration: none;
+}
+
+.menu-deroulant{
+    margin-bottom: 100px;
+    border-style:groove;
+    background-color: rgb(167, 158, 158);
+    border-radius: 30px; 
+}
+
+div{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(167, 158, 158);
+    height: 150px;
+    border-radius: 30px;
+}
+
+footer a{
+    color: black;
+    font-size: 20px;
+}
+
+#formulaire{
+    text-align: center; 
+}
+
+#formulaire label{
+    border-radius: 20px;
+    width: fit-content;
+    background-color:rgb(208, 208, 233);
+}
+
+button{
+    border-radius: 12px;
+    width: 150px;
+    background-color:rgb(208, 208, 233);
+}
+
+div h3{
+    font-size: 30px;
+}
+
+article p{
+    margin-top: 30px;
+}
+
+.liste-etudes{
+    text-align: center;
+    list-style-type: none;
+    margin-top: -260px;
+}
